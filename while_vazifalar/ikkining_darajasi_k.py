@@ -1,7 +1,10 @@
 n=int(input("n="))
 k=0
-s=2
+s=4
 while s<=n:
     k+=1
-    s*=2
-print(k)
+    s*=4
+if n==4**k:
+    print(k)
+else:
+    print("-1")
