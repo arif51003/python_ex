@@ -41,3 +41,4 @@ for i in s:
     else :
         dic[i]=1
 print(dic)
+
