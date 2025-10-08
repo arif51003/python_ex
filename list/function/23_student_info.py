@@ -1,5 +1,7 @@
-def student_info(name:str,age:int,**kwargs):
-    dic=dict()
-    dic.update(name,age)
-    return dic
-print(student_info('arif',22))
+def studen_info(name,age,**details):
+    s=f"{name} {age}"
+    if  details:
+        for key, val in details.items():
+            s+=f" {key}: {val}"
+    return s
+print(studen_info("Arif",23,familya="Baxronov",country="Uzbekiston"))
