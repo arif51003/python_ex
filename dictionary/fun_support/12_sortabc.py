@@ -9,5 +9,4 @@ def sortabc(a,b,c):
 a=int(input())
 b=int(input())
 c=int(input())
-sortabc(a,b,c)
-print(a)
+print(sortabc(a,b,c))

@@ -5,4 +5,4 @@ def doira2(r1,r2):
         return s1-s2
     else:
         return s2-s1
-print(doira2(2,3))
+print(doira2())

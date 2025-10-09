@@ -8,6 +8,6 @@ def digitN(n,k):
         s+=1
         if s==k:
             return e
-            break
+    
         
 print(digitN(98768,3))
