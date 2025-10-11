@@ -1,4 +1,5 @@
 from typing import Callable
+
 def sq_qu_du(name:Callable):
     if name=="squer":
         return lambda s:s**2

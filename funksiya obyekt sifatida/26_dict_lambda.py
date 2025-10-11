@@ -1,5 +1,6 @@
 def qimmati(dic:dict):
     return dict(map(lambda x:int(x[1])>1000,dic))
+
 d={
     "olma":200,
     "nok":500,

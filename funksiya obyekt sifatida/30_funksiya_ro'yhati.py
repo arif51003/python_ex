@@ -1,6 +1,6 @@
-import math
+
 from typing import Callable
-p=[abs,lambda x:x**2,lambda x:x*5]
+p=[lambda x:x**2,lambda x:x*5]
 
 def apply(fun,a)->list:
     return fun(a)
