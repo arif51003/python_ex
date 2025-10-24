@@ -1,0 +1,6 @@
+f=open("text1.txt","r+")
+a=f.read().split()
+a.sort()
+f.seek(0)
+f.write(a)
+f.close()

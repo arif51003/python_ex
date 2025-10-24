@@ -5,6 +5,6 @@ for i in l:
     try:
         l2.append(int(i))
     except ValueError:
-        print("sozlarni o'grish imkonsiz")
+        print(f"{i} sozini o'grish imkonsiz")
         # continue
 print(l2)

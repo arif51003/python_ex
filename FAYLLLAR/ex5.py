@@ -1,0 +1,6 @@
+f=open("text.txt","r+")
+a=f.read()
+b=a.split()
+k=len(b)
+print(k)
+f.close()
