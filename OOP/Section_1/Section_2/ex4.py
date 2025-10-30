@@ -1,0 +1,13 @@
+class Cicle:
+    def __init__(self,radius):
+        self.radius=radius
+    
+    @classmethod
+    def diametr(cls,diametr):
+        return Cicle(radius=diametr/2)
+    def __str__(self):
+        return f"{self.radius}"
+    
+c1=Cicle.diametr(5)
+
+print(c1)
